@@ -1,17 +1,1 @@
-.status {
-  width: fit-content;
-  margin: 8px auto;
-  padding: 6px 12px;
-  border-radius: 99px;
-  font-size: 14px;
-}
-
-.green {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.gray {
-  background: #e5e7eb;
-  color: #374151;
-}
+/* Replaced by Tailwind CSS utility classes in accordance with Tailwind's 4px scale. */
