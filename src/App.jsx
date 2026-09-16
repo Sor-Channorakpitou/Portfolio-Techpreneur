@@ -24,7 +24,7 @@ export default function App() {
   const featuredProjects = [
     {
       id: 'proj-1',
-      title: 'E-Commerce Storefront',
+      title: 'VTStore',
       description:
         'A high-performance modern web storefront featuring dynamic product filtering, seamless cart state, responsive layouts, and Tailwind UI components.',
       status: 'Live Production',
@@ -35,12 +35,11 @@ export default function App() {
     },
     {
       id: 'proj-2',
-      title: 'DevPulse Analytics Dashboard',
-      description:
-        'Developer performance telemetry interface featuring interactive metrics, responsive two-column data views, and accessible UI blueprints.',
+      title: 'MedFlow',
+      description: 'MedFlow is an innovative healthcare management platform designed to streamline the entire patient journey. From initial appointment booking and digital registration to real-time doctor-patient communication and comprehensive medical record management, MedFlow provides a seamless and efficient ecosystem for modern healthcare delivery. The platform ensures secure access, instant updates, and integrated pharmacy services, enhancing the quality of care and patient experience.',
       status: 'In Development',
       statusVariant: 'warning',
-      tags: ['React', 'Tailwind CSS', 'TypeScript', 'Radix UI'],
+      tags: ['React', 'Tailwind CSS', 'TypeScript', 'ExpressJS'],
       projectUrl: 'https://github.com/Sor-Channorakpitou',
       repoUrl: 'https://github.com/Sor-Channorakpitou',
     },
@@ -98,7 +97,7 @@ export default function App() {
       {/* Main Container: Single column on phone, 2 columns (main + sidebar) from md: up */}
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-12 md:gap-8">
-          
+
           {/* ========================================================= */}
           {/* SIDEBAR COLUMN (md:col-span-4) - Profile, Stats & Contact */}
           {/* ========================================================= */}
